@@ -9,6 +9,11 @@ public class Singleton
 		if (instance==null) {
 			instance = new Singleton();
 		}
+		System.out.println("Hello World!");
+
+	
+		System.out.printf("The product of both numbers ");
+		
 		return instance;
 	}
 }
